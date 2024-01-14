@@ -7,7 +7,6 @@ function App() {
 
   console.log(blocks);
 
-  // pic a random position on the screen
   const randomPosition = () => {
     const randomWidth = Math.random() * window.innerWidth;
     const randomHeight = Math.random() * window.innerHeight;
